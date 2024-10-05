@@ -35,9 +35,9 @@ The motivation behind this project was to create a fast and reliable communicati
 Demo Video: [https://youtu.be/17s7UFNR7QM]
 
 Screenshots:  
-1. ![Login Page](https://drive.google.com/file/d/1-q2NL74dPhkYsZxhx3NuMI5awqKkM2-3/view?usp=sharing)  
-2. ![Chat Interface](https://drive.google.com/file/d/1rMEyvuO0snTp-NnYB77JidC2AxR8XgP6/view?usp=sharing)
-3. ![Registration Page](https://drive.google.com/file/d/166Yv-ke9StA6QAdwNs3aXGZ-6nHlSQ21/view?usp=sharing) 
+1. ![https://drive.google.com/file/d/1-q2NL74dPhkYsZxhx3NuMI5awqKkM2-3/view?usp=sharing]
+2. ![https://drive.google.com/file/d/1rMEyvuO0snTp-NnYB77JidC2AxR8XgP6/view?usp=sharing]
+3. ![https://drive.google.com/file/d/166Yv-ke9StA6QAdwNs3aXGZ-6nHlSQ21/view?usp=sharing] 
 
 ## Anything Else You Want To Share With Us?  
 This project was an exciting and enriching experience! Using Appwrite to handle real-time features and authentication made the development process much smoother, and we were able to focus more on creating a seamless user experience. We're proud of what we built and eager to see how it can evolve.
