@@ -1,0 +1,194 @@
+:root {
+  --mainBgColor: #1e3a5f;
+  /* Darker navy blue */
+  --secondaryBgColor: #03273b;
+  /* Muted sky blue for contrast */
+  --borderColor1: #102b43;
+  /* Deep steel blue for better contrast */
+  --borderColor2: #57a5c9;
+  /* Light cadet blue for accents */
+  --textColorMain: #ffffff;
+  /* White for good readability */
+  --textColorSecondary: #dcdcdc;
+  /* Lighter grey for secondary text */
+  --themeColorMain: #3b82b3;
+  /* Softer sky blue for theme color */
+  --themeColorSecondary: #18415e;
+  /* Complementary dark blue */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: #87ceeb;
+  /* Sky blue for links */
+}
+
+body {
+  background-color: var(--mainBgColor);
+  color: var(--textColorMain);
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Login & Register Pages */
+
+.auth--container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form--wrapper {
+  width: 600px;
+  padding: 2em;
+}
+
+.field--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0.5em 0;
+}
+
+/* Form Input Styling */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  background: var(--secondaryBgColor);
+  border: none;
+  border-bottom: 1px solid var(--borderColor1);
+  padding: 1rem;
+  border-radius: 5px;
+  width: 100%;
+  color: var(--textColorMain);
+  outline: none;
+  font-size: 18px;
+}
+
+/* Button Styling */
+
+.btn {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn--lg {
+  padding: 1em 2em;
+}
+
+.btn--main {
+  background-color: var(--themeColorMain);
+  color: #ffffff;
+}
+
+.btn--secondary {
+  background-color: #87cefa;
+  /* Light Sky Blue */
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Header Styling */
+
+#header--wrapper {
+  background-color: var(--themeColorSecondary);
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid var(--borderColor1);
+  border-bottom: none;
+}
+
+.header--link {
+  color: #87ceeb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header--link:hover {
+  color: #00bfff;
+  /* Deep Sky Blue */
+}
+
+/* Room Styling */
+
+.room--container {
+  padding: 2em;
+  background-color: var(--secondaryBgColor);
+  border-radius: 0 0 10px 10px;
+  border: 1px solid var(--borderColor1);
+}
+
+#message--form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.send-btn--wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5em;
+  margin: 1em;
+}
+
+.message--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message--body {
+  padding: 1em;
+  background-color: var(--themeColorMain);
+  color: var(--textColorSecondary);
+  border-radius: 15px;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.message--body--owner {
+  background-color: var(--themeColorSecondary);
+  border: 1px solid var(--themeColorMain);
+}
+
+.message-timestamp {
+  margin-left: 1em;
+  color: rgb(164, 161, 161);
+}
+
+.delete--btn {
+  color: #87ceeb;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 16px;
+}
+
+.delete--btn:hover {
+  color: red;
+}
